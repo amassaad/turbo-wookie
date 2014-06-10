@@ -1,1 +1,1 @@
-web: bundle exec ruby smsreply.rb -p $PORT
+web: bundle exec ruby error.rb -p $PORT
