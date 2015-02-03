@@ -4,6 +4,7 @@ GEM
     builder (3.2.2)
     jwt (1.2.1)
     multi_json (1.10.1)
+    newrelic_rpm (3.9.9.275)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
@@ -21,5 +22,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  newrelic_rpm
   sinatra (= 1.4.5)
   twilio-ruby (= 3.11.5)
