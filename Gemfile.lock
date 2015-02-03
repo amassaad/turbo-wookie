@@ -22,6 +22,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  newrelic_rpm
+  newrelic_rpm (= 3.9.9.275)
   sinatra (= 1.4.5)
   twilio-ruby (= 3.11.5)
