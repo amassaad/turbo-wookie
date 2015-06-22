@@ -2,7 +2,11 @@ require 'rubygems'
 require 'twilio-ruby'
 require 'sinatra'
 require 'newrelic_rpm'
-require_relative 'helper'
+
+def self.get_or_post(url,&block)
+  get(url,&block)
+  post(url,&block)
+end
 
 get_or_post '/error' do
   twiml = Twilio::TwiML::Response.new do |r|
