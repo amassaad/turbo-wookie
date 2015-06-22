@@ -22,7 +22,7 @@ Of a bicycle made for two. "
   twiml.text
 end
 
-get_ '/smserror' do
+get_or '/smserror' do
   twimlsms = Twilio::TwiML::Response.new do |r|
     r.Message "Something seems to be down with the magic computers. Is it the Y2k bug? Daisy, Daisy,
 Give me your answer do"
