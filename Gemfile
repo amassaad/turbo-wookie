@@ -1,5 +1,5 @@
-source "https://rubygems.org"
-ruby "2.1.5"
-gem 'sinatra',                "1.4.5"
-gem 'twilio-ruby',            "3.11.5"
-gem 'newrelic_rpm',           "3.9.9.275"
+source 'https://rubygems.org'
+ruby '2.4.0'
+gem 'sinatra'
+gem 'twilio-ruby'
+gem 'newrelic_rpm'
